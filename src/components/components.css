@@ -1,0 +1,47 @@
+.input_container {
+    display: flex;
+    gap: 12px;
+    
+    input {
+        margin: 0;
+        padding: 0 16px;
+        box-sizing: border-box;
+        height: 36px;
+        border: 0px;
+        background-color: lightgray;
+        border-radius: 18px;
+        color: rgb(0, 0, 0);
+    }
+    
+    button {
+        padding: 0 16px;
+        height: 36px;
+        border-radius: 18px;
+        border: 0;
+        background-color: black;
+    }
+}
+
+.list_containter {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+            list-style: none;
+            display: flex;    
+            justify-content: space-between;
+        }
+    }
+
+    .delete_btn {
+        font-size: 14px;
+        color: rgb(106, 106, 106);
+    }
+}
